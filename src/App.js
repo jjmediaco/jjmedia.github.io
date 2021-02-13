@@ -6,9 +6,15 @@ import Header from './header';
 class App extends React.Component {
 render() {
     return (
-      <div className="App">
+      <div>
+      <div className="App" style={{height: "100vh"}}>
         <Header></Header>
+      </div> 
+     
+    
       </div>
+
+      
     );
   }
 }
